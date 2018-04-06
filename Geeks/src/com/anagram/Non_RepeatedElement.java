@@ -3,7 +3,7 @@ package com.anagram;
 public class Non_RepeatedElement {
 
 	public static void main(String[] args) {
-		int arr[] = { 2, 3, 5, 7, 3, 5, 2 };
+		int arr[] = { 2, 3, 5, 8, 3, 5, 2, };
 		int n = arr.length;
 		int non = non_repeated(arr, n);
 		System.out.println(non);
