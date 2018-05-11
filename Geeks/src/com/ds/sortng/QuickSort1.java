@@ -42,6 +42,7 @@ public class QuickSort1 {
 			 * pi is partitioning index, arr[pi] is now at right place
 			 */
 			int pi = partition(arr, low, high);
+			System.out.println("pi:"+pi);
 
 			// Recursively sort elements before
 			// partition and after partition
